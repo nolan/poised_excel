@@ -1,0 +1,30 @@
+= poised_excel
+
+Poised Excel takes the hassle out of importing Excel documents by using the powerful Apache POI
+library. Ruby 1.9 and the Spreadsheet gem were bugging out with certain documents when they contained multiple character encodings.
+
+
+== TODO
+* Spell out requirements. Obviously Java
+* Don't rely on Rack::UploadFile for content_type determination
+* Tests
+* Possibly combine XLS and XLSX jars.
+* Consider having POI return array or arrays instead of CSV
+* Generate spreadsheets
+
+
+== Contributing to poised_excel
+
+* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
+* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
+* Fork the project
+* Start a feature/bugfix branch
+* Commit and push until you are happy with your contribution
+* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
+* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+
+== Copyright
+
+Copyright (c) 2011 Nolan Meyers. See LICENSE.txt for
+further details.
+
